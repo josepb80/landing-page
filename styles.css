@@ -7,7 +7,6 @@ body{
     background-color: rgb(160, 160, 160);
     margin: 0; 
     padding: 10px;
-    text-align: center;
 }
 
 .nav-link:hover{
@@ -21,6 +20,13 @@ body{
 
 .nav-list{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    text-align: center;
+    margin: 0 15px;
 }
 
 .landing-container{
@@ -85,11 +91,15 @@ body{
 
 .footer-links{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-link{
     color: white;
     text-decoration: none;
+    text-align: center;
+    margin: 0 15px;
 }
 
 .footer-link:hover{
